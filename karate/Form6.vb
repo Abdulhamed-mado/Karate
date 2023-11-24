@@ -1,0 +1,274 @@
+﻿Imports System.Data.SqlClient
+
+Public Class Form6
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+
+
+
+
+        Dim d As Integer
+            Dim m As Integer
+            Dim y As Integer
+            d = DateTimePicker2.Value.Day
+            m = DateTimePicker2.Value.Month
+            y = DateTimePicker2.Value.Year
+            Dim s As String = m & "-" & d & "-" & y
+
+
+            Dim dd As Integer
+            Dim mm As Integer
+            Dim yy As Integer
+            dd = DateTimePicker1.Value.Day
+            mm = DateTimePicker1.Value.Month
+            yy = DateTimePicker1.Value.Year
+            Dim ss As String = mm & "-" & dd & "-" & yy
+
+            Dim sa As String = ComboBox1.Text
+
+
+            Dim sas As String = ComboBox2.Text
+
+            Dim str As String = "Server=LAPTOP-TVMSOSNS\MADONAFO2001;Database=karate;Trusted_Connection=True;
+"
+
+
+
+
+            Dim myconn As New SqlConnection(str)
+            Dim com As New SqlCommand("insert into sensi values('" + txt1.Text + "' , '" + txt2.Text + "' , '" + txt3.Text + "' , '" + txt4.Text + "' , '" + s + "'  , '" + txt5.Text + "', '" + "0" + "', '" + ss + "'  , '" + sas + "' , '" + ss + "' , '" + sa + "' , '" + "0" + "' )", myconn)
+
+            Try
+                myconn.Open()
+                com.ExecuteNonQuery()
+                myconn.Close()
+
+                txt1.Text = ""
+                txt2.Text = ""
+                txt3.Text = ""
+                txt4.Text = ""
+                txt5.Text = ""
+
+            MsgBox("تم ادخال البيانات")
+
+        Catch ex As Exception
+                MsgBox("الرجاء التأكد بيانات", MsgBoxStyle.Exclamation, "خطأ")
+
+            End Try
+
+
+
+
+
+
+
+        Form6_Load(sender, e)
+
+
+    End Sub
+
+
+
+
+
+
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Form2.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
+        Form12.Show()
+        Me.Close()
+
+    End Sub
+
+
+
+    Private Sub txt3_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txt3.KeyPress
+        If (e.KeyChar >= "ا" And e.KeyChar <= "ي") Then
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs)
+        Form7.Show()
+        Me.Close()
+
+    End Sub
+
+    Private Sub txt2_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txt2.KeyPress
+        If (e.KeyChar >= "a" And e.KeyChar <= "z") Or (e.KeyChar >= "A" And e.KeyChar <= "Z") Then
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub Form6_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'KarateDataSet29.sensi' table. You can move, or remove it, as needed.
+        Me.SensiTableAdapter.Fill(Me.KarateDataSet29.sensi)
+        Dim str As String = "Server=LAPTOP-TVMSOSNS\MADONAFO2001;Database=karate;Trusted_Connection=True;"
+
+        Dim myconn As New SqlConnection(str)
+        Dim command As New SqlCommand("SELECT * FROM club ", myconn)
+        Dim ade As New SqlDataAdapter(command)
+
+        Dim table As New DataTable
+        ade.Fill(table)
+
+        ComboBox1.DataSource = table
+        ComboBox1.DisplayMember = "Name"
+        ComboBox1.ValueMember = "ID"
+    End Sub
+
+
+
+
+
+
+
+
+    Private Sub txt1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txt1.KeyPress
+        If (e.KeyChar < "0" OrElse e.KeyChar > "9") AndAlso e.KeyChar <> ControlChars.Back AndAlso e.KeyChar <> "." Then
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+
+        Dim d As Integer
+            Dim m As Integer
+            Dim y As Integer
+            d = DateTimePicker2.Value.Day
+            m = DateTimePicker2.Value.Month
+            y = DateTimePicker2.Value.Year
+            Dim s As String = m & "-" & d & "-" & y
+
+
+            Dim dd As Integer
+            Dim mm As Integer
+            Dim yy As Integer
+            dd = DateTimePicker1.Value.Day
+            mm = DateTimePicker1.Value.Month
+            yy = DateTimePicker1.Value.Year
+            Dim ss As String = mm & "-" & dd & "-" & yy
+
+            Dim sa As String = ComboBox1.Text
+
+
+            Dim sas As String = ComboBox2.Text
+
+            Dim str As String = "Server=LAPTOP-TVMSOSNS\MADONAFO2001;Database=karate;Trusted_Connection=True;
+"
+
+
+
+
+            Dim up As String = "UPDATE sensi set "
+            up = up + "Name_arabic='" + txt2.Text + "'"
+            up = up + ", Name_english='" + txt3.Text + "'"
+            up = up + ", pass_num='" + txt4.Text + "'"
+            up = up + ", bdate='" + s + "'"
+            up = up + ", note='" + txt5.Text + "'"
+            up = up + ", club_id='" + sa + "'"
+            up = up + ",belt='" + sas + "'"
+            up = up + ",bedate='" + ss + "'"
+            up = up + "WHERE ID = '" + txt1.Text + "' "
+
+
+            Dim myconn As New SqlConnection(str)
+            Dim com As New SqlCommand(up, myconn)
+
+            Try
+                myconn.Open()
+                com.ExecuteNonQuery()
+                myconn.Close()
+
+                txt1.Text = ""
+                txt2.Text = ""
+                txt3.Text = ""
+                txt4.Text = ""
+                txt5.Text = ""
+                MsgBox("تم تعديل البيانات")
+
+            Catch ex As Exception
+                MsgBox("الرجاء التأكد من البيانات", MsgBoxStyle.Exclamation, "خطأ")
+
+            End Try
+        Form6_Load(sender, e)
+
+    End Sub
+
+    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim result As DialogResult = MsgBox("هل تريد حذف المدرب", MsgBoxStyle.YesNo, "تأكيد")
+        If result = DialogResult.Yes Then
+            Dim str As String = "Server=LAPTOP-TVMSOSNS\MADONAFO2001;Database=karate;Trusted_Connection=True;
+"
+
+
+
+            Dim myconn As New SqlConnection(str)
+            Dim com As New SqlCommand("delete FROM sensi WHERE  ID = '" + txt1.Text + "' ", myconn)
+            Try
+                myconn.Open()
+
+                com.ExecuteNonQuery()
+                myconn.Close()
+                txt1.Text = ""
+                txt2.Text = ""
+                txt3.Text = ""
+                txt4.Text = ""
+                txt5.Text = ""
+                MsgBox("تم حذف البيانات")
+
+
+
+
+            Catch ex As Exception
+                MsgBox("الرجاء التأكد من حذف جميع سجلات الخاصة بدرجات المدرب", MsgBoxStyle.Exclamation, "خطأ")
+
+            End Try
+
+        End If
+        Form6_Load(sender, e)
+
+    End Sub
+
+    Private Sub DataGridView1_DoubleClick(sender As Object, e As EventArgs) Handles DataGridView1.DoubleClick
+        Dim s As String
+        s = DataGridView1.SelectedCells.Item(0).Value.ToString
+        Dim str As String = "Server=LAPTOP-TVMSOSNS\MADONAFO2001;Database=karate;Trusted_Connection=True;
+"
+
+
+        Dim myconn As New SqlConnection(str)
+        Dim com As New SqlCommand("SELECT * FROM sensi WHERE  ID='" + s + "'", myconn)
+
+        Try
+
+            myconn.Open()
+            Dim myreder As SqlDataReader = com.ExecuteReader()
+            myreder.Read()
+
+            txt1.Text = myreder("ID")
+
+            txt2.Text = myreder("Name_arabic")
+            txt3.Text = myreder("Name_english")
+            txt4.Text = myreder("pass_num")
+            txt5.Text = myreder("note")
+            DateTimePicker2.Value = myreder("bdate")
+            ComboBox1.Text = myreder("club_id")
+            DateTimePicker1.Value = myreder("bedate")
+            ComboBox2.Text = myreder("belt")
+
+            myconn.Close()
+
+        Catch ex As Exception
+            MsgBox("الرجاء التأكد من نقر المزدوج على خانة رقم المدرب", MsgBoxStyle.Exclamation, "خطأ")
+
+        End Try
+    End Sub
+
+    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
+
+    End Sub
+End Class

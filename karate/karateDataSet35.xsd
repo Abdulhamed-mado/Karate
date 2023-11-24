@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="karateDataSet35" targetNamespace="http://tempuri.org/karateDataSet35.xsd" xmlns:mstns="http://tempuri.org/karateDataSet35.xsd" xmlns="http://tempuri.org/karateDataSet35.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="karateConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="karateConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.karate.My.MySettings.GlobalReference.Default.karateConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="sensi_degree2_viewTableAdapter" GeneratorDataComponentClassName="sensi_degree2_viewTableAdapter" Name="sensi_degree2_view" UserDataComponentName="sensi_degree2_viewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="karateConnectionString (MySettings)" DbObjectName="karate.dbo.sensi_degree2_view" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, d_ID, Name_arabic, Name_english, belt, degree FROM dbo.sensi_degree2_view</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="d_ID" DataSetColumn="d_ID" />
+              <Mapping SourceColumn="Name_arabic" DataSetColumn="Name_arabic" />
+              <Mapping SourceColumn="Name_english" DataSetColumn="Name_english" />
+              <Mapping SourceColumn="belt" DataSetColumn="belt" />
+              <Mapping SourceColumn="degree" DataSetColumn="degree" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="karateDataSet35" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="karateDataSet35" msprop:Generator_UserDSName="karateDataSet35">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="sensi_degree2_view" msprop:Generator_TableClassName="sensi_degree2_viewDataTable" msprop:Generator_TableVarName="tablesensi_degree2_view" msprop:Generator_TablePropName="sensi_degree2_view" msprop:Generator_RowDeletingName="sensi_degree2_viewRowDeleting" msprop:Generator_RowChangingName="sensi_degree2_viewRowChanging" msprop:Generator_RowEvHandlerName="sensi_degree2_viewRowChangeEventHandler" msprop:Generator_RowDeletedName="sensi_degree2_viewRowDeleted" msprop:Generator_UserTableName="sensi_degree2_view" msprop:Generator_RowChangedName="sensi_degree2_viewRowChanged" msprop:Generator_RowEvArgName="sensi_degree2_viewRowChangeEvent" msprop:Generator_RowClassName="sensi_degree2_viewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:long" minOccurs="0" />
+              <xs:element name="d_ID" msprop:Generator_ColumnVarNameInTable="columnd_ID" msprop:Generator_ColumnPropNameInRow="d_ID" msprop:Generator_ColumnPropNameInTable="d_IDColumn" msprop:Generator_UserColumnName="d_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="Name_arabic" msprop:Generator_ColumnVarNameInTable="columnName_arabic" msprop:Generator_ColumnPropNameInRow="Name_arabic" msprop:Generator_ColumnPropNameInTable="Name_arabicColumn" msprop:Generator_UserColumnName="Name_arabic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name_english" msprop:Generator_ColumnVarNameInTable="columnName_english" msprop:Generator_ColumnPropNameInRow="Name_english" msprop:Generator_ColumnPropNameInTable="Name_englishColumn" msprop:Generator_UserColumnName="Name_english" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="belt" msprop:Generator_ColumnVarNameInTable="columnbelt" msprop:Generator_ColumnPropNameInRow="belt" msprop:Generator_ColumnPropNameInTable="beltColumn" msprop:Generator_UserColumnName="belt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="degree" msprop:Generator_ColumnVarNameInTable="columndegree" msprop:Generator_ColumnPropNameInRow="degree" msprop:Generator_ColumnPropNameInTable="degreeColumn" msprop:Generator_UserColumnName="degree" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:sensi_degree2_view" />
+      <xs:field xpath="mstns:ID" />
+      <xs:field xpath="mstns:d_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

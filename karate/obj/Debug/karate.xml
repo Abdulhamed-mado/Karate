@@ -1,0 +1,2946 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+karate
+</name>
+</assembly>
+<members>
+<member name="T:karate.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:karate.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:karate.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet.clubDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet.clubRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet.clubRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSetTableAdapters.clubTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSetTableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet1.playerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet1.playerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet1.playerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet1TableAdapters.playerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet1TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet10">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet10.playerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet10.playerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet10.playerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet10TableAdapters.playerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet10TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet10TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet10)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet11">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet11.clubDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet11.clubRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet11.clubRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet11TableAdapters.clubTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet11TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet11TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet11)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet12">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet12.sensiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet12.sensiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet12.sensiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet12TableAdapters.sensiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet12TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet12TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet12)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet13">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet13.refDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet13.refRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet13.refRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet13TableAdapters.refTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet13TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet13TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet13)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet14">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet14.playerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet14.player_beltDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet14.playerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet14.player_beltRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet14.playerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet14.player_beltRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet14TableAdapters.playerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet14TableAdapters.player_beltTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet14TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet14TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet14)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet15">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet15.playerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet15.player_beltDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet15.playerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet15.player_beltRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet15.playerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet15.player_beltRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet15TableAdapters.playerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet15TableAdapters.player_beltTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet15TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet15TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet15,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet15TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet15TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet15TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet15TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet15)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet15TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet15TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet16">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet16.player_beltDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet16.player_beltRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet16.player_beltRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet16TableAdapters.player_beltTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet16TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet16TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet16,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet16TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet16TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet16TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet16TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet16)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet16TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet16TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet17">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet17.playerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet17.player_beltDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet17.playerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet17.player_beltRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet17.playerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet17.player_beltRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet17TableAdapters.playerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet17TableAdapters.player_beltTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet17TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet17TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet17,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet17TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet17TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet17TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet17TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet17)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet17TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet17TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet18">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet18.playerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet18.player_beltDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet18.playerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet18.player_beltRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet18.playerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet18.player_beltRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet18TableAdapters.playerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet18TableAdapters.player_beltTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet18TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet18TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet18,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet18TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet18TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet18TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet18TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet18)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet18TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet18TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet19">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet19.playerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet19.player_beltDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet19.playerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet19.player_beltRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet19.playerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet19.player_beltRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet19TableAdapters.playerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet19TableAdapters.player_beltTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet19TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet19TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet19,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet19TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet19TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet19TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet19TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet19)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet19TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet19TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet2.refDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet2.refRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet2.refRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet2TableAdapters.refTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet2TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet20">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet20.refDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet20.ref_degreeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet20.refRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet20.ref_degreeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet20.refRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet20.ref_degreeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet20TableAdapters.refTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet20TableAdapters.ref_degreeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet20TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet20TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet20,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet20TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet20TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet20TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet20TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet20)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet20TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet20TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet21">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet21.ref_degreeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet21.ref_degreeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet21.ref_degreeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet21TableAdapters.ref_degreeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet21TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet21TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet21,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet21TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet21TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet21TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet21TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet21)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet21TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet21TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet22">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet22.refDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet22.ref_degreeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet22.refRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet22.ref_degreeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet22.refRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet22.ref_degreeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet22TableAdapters.refTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet22TableAdapters.ref_degreeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet22TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet22TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet22,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet22TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet22TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet22TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet22TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet22)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet22TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet22TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet23">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet23.refDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet23.ref_degreeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet23.refRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet23.ref_degreeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet23.refRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet23.ref_degreeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet23TableAdapters.refTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet23TableAdapters.ref_degreeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet23TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet23TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet23,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet23TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet23TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet23TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet23TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet23)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet23TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet23TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet24">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet24.ref_degreeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet24.ref_degreeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet24.ref_degreeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet24TableAdapters.ref_degreeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet24TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet24TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet24,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet24TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet24TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet24TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet24TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet24)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet24TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet24TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet25">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet26">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet26.player_belt_viewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet26.player_belt_viewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet26.player_belt_viewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet26TableAdapters.player_belt_viewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet26TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet26TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet26,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet26TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet26TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet26TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet26TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet26)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet26TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet26TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet27">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet27.clubDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet27.clubRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet27.clubRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet27TableAdapters.clubTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet27TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet27TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet27,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet27TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet27,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet27TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet27,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet27TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet27TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet27)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet27TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet27TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet28">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet28.refDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet28.refRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet28.refRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet28TableAdapters.refTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet28TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet28TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet28,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet28TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet28,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet28TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet28,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet28TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet28TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet28)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet28TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet28TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet29">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet29.sensiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet29.sensiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet29.sensiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet29TableAdapters.sensiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet29TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet29TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet29,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet29TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet29,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet29TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet29,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet29TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet29TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet29)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet29TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet29TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet3.refDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet3.refRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet3.refRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet3TableAdapters.refTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet3TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet30">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet30.playerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet30.playerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet30.playerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet30TableAdapters.playerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet30TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet30TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet30,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet30TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet30,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet30TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet30,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet30TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet30TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet30)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet30TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet30TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet31">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet31.ref_degree_viewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet31.ref_degree_viewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet31.ref_degree_viewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet31TableAdapters.ref_degree_viewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet31TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet31TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet31,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet31TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet31,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet31TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet31,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet31TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet31TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet31)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet31TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet31TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet32">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet32.sensi_degree_viewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet32.sensi_degree_viewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet32.sensi_degree_viewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet32TableAdapters.sensi_degree_viewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet32TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet32TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet32,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet32TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet32,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet32TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet32,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet32TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet32TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet32)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet32TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet32TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet33">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet33.player_belt_viewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet33.player_belt_viewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet33.player_belt_viewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet33TableAdapters.player_belt_viewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet33TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet33TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet33,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet33TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet33,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet33TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet33,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet33TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet33TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet33)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet33TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet33TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet34">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet34.ref_degree2_viewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet34.ref_degree2_viewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet34.ref_degree2_viewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet34TableAdapters.ref_degree2_viewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet34TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet34TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet34,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet34TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet34,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet34TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet34,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet34TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet34TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet34)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet34TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet34TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet35">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet35.sensi_degree2_viewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet35.sensi_degree2_viewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet35.sensi_degree2_viewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet35TableAdapters.sensi_degree2_viewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet35TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet35TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet35,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet35TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet35,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet35TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet35,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet35TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet35TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet35)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet35TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet35TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet36">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet36.player_belt2_viewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet36.player_belt2_viewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet36.player_belt2_viewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet36TableAdapters.player_belt2_viewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet36TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet36TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet36,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet36TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet36,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet36TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet36,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet36TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet36TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet36)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet36TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet36TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet37">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet37.sensi_degree3_viewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet37.sensi_degree3_viewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet37.sensi_degree3_viewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet37TableAdapters.sensi_degree3_viewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet37TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet37TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet37,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet37TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet37,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet37TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet37,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet37TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet37TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet37)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet37TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet37TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet38">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet38.player_belt3_viewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet38.player_belt3_viewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet38.player_belt3_viewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet38TableAdapters.player_belt3_viewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet38TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet38TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet38,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet38TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet38,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet38TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet38,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet38TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet38TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet38)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet38TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet38TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet39">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet39.ref_degree3_viewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet39.ref_degree3_viewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet39.ref_degree3_viewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet39TableAdapters.ref_degree3_viewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet39TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet39TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet39,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet39TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet39,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet39TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet39,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet39TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet39TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet39)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet39TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet39TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet4.sensiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet4.sensiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet4.sensiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet4TableAdapters.sensiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet4TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet40">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet40.player_belt4_viewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet40.player_belt4_viewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet40.player_belt4_viewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet40TableAdapters.player_belt4_viewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet40TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet40TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet40,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet40TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet40,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet40TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet40,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet40TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet40TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet40)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet40TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet40TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet41">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet41.sensi_degree6_viewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet41.sensi_degree6_viewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet41.sensi_degree6_viewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet41TableAdapters.sensi_degree6_viewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet41TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet41TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet41,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet41TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet41,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet41TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet41,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet41TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet41TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet41)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet41TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet41TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet42">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet42.ref_degree5_viewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet42.ref_degree5_viewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet42.ref_degree5_viewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet42TableAdapters.ref_degree5_viewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet42TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet42TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet42,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet42TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet42,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet42TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet42,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet42TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet42TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet42)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet42TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet42TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet5.ref_degreeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet5.ref_degreeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet5.ref_degreeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet5TableAdapters.ref_degreeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet5TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet6.refDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet6.ref_degreeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet6.refRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet6.ref_degreeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet6.refRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet6.ref_degreeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet6TableAdapters.refTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet6TableAdapters.ref_degreeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet6TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet7.sensi_degreeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet7.sensi_degreeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet7.sensi_degreeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet7TableAdapters.sensi_degreeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet7TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet8.ref_degreeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet8.ref_degreeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet8.ref_degreeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet8TableAdapters.ref_degreeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet8TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.karateDataSet9">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet9.player_beltDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet9.player_beltRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:karate.karateDataSet9.player_beltRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:karate.karateDataSet9TableAdapters.player_beltTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:karate.karateDataSet9TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:karate.karateDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(karate.karateDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(karate.karateDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(karate.karateDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:karate.karateDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:karate.karateDataSet9TableAdapters.TableAdapterManager.UpdateAll(karate.karateDataSet9)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:karate.karateDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:karate.karateDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:karate.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>
